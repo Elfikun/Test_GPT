@@ -1,6 +1,6 @@
-@import url("style.css");
-@import url("blocks.css");
-@import url("menu.css");
+@import url("/css/style.css");
+@import url("/css/blocks.css");
+@import url("/css/menu.css");
 
 @font-face {
 	font-family: "Future Now";
