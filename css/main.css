@@ -1,14 +1,13 @@
-@import url('style.css');
-@import url('blocks.css');
-@import url('menu.css');
+@import url("style.css");
+@import url("blocks.css");
+@import url("menu.css");
 
 @font-face {
-  font-family: 'Future Now';
-  src: url('../fonts/Future Now.ttf') format('truetype');
+	font-family: "Future Now";
+	src: url("../fonts/Future Now.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Jura';
-  src: url('../fonts/Jura.ttf') format('truetype');
+	font-family: "Jura";
+	src: url("../fonts/Jura.ttf") format("truetype");
 }
-
