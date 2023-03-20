@@ -1,0 +1,50 @@
+#company-section .company-block p {
+  font-family: 'Jura', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: white;
+}
+
+
+#company-section {
+	
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.5) 70%);
+	/* background-image: url(../img/bg_all.jpeg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  color: white;
+  padding: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#company-section .company-block {
+  width: 100%;
+  max-width: 1200px;
+  margin: 3rem 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#company-section .company-block img {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+#company-section .company-block p {
+  font-family: 'Jura', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: white;
+}
+
+#company-section .company-block.reverse {
+  flex-direction: row-reverse;
+}

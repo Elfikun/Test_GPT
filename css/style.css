@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+	}
+
+#background-image {
+  background-image: url('../img/bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  font-family: 'Future Now';
+  font-size: 10rem;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#content {
+  font-family: 'Future Now', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+	text-shadow: 2px 2px 4px rgba(230, 8, 238, 0.849);
+}
+
+#slogan {
+  font-family: 'Jura', sans-serif;
+}
+
+#content p:hover {
+	cursor: pointer;
+  animation: glitch 0.5s infinite;
+}
+
+@keyframes glitch {
+  0% {
+    transform: skew(0deg);
+  }
+  20% {
+    transform: skew(-20deg);
+  }
+  40% {
+    transform: skew(20deg);
+  }
+  60% {
+    transform: skew(-10deg);
+  }
+  80% {
+    transform: skew(10deg);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
